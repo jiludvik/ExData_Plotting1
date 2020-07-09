@@ -1,0 +1,22 @@
+#prepare data
+df <- subset(read.table("household_power_consumption.txt", sep=";", 
+                   header=TRUE, na.strings = "?", 
+                   colClasses = c("character", "character", rep("numeric", 7))), 
+             Date=="1/2/2007"| Date=="2/2/2007")
+names(df) <- tolower(names(df))
+
+#reset layout
+par(mfrow=c(1,1))
+
+#plot histogram
+hist(df$global_active_power, 
+     freq=TRUE, 
+     col = "red", 
+     main = "Global Active Power", 
+     xlab="Global Active Power (kilowatts)"
+     )
+
+# copy to png output file
+dev.copy(png, file="plot1.png", height = 480, width = 480, units = "px")
+dev.off()
+
