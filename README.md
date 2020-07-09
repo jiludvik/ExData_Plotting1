@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Exploring Household Electric Power Usage
 **Exploratory Data Analysis Course Project 1**
 
