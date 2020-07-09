@@ -24,7 +24,7 @@ You can see the plots produced by the submitted R scripts below:
 ![Plot4](plot4.png)
 
 ## Reference Plots
-For reference, the original plots specified in the project brief are below:
+For reference, the original plots specified in the project brief (Plotting Assignment) [https://github.com/rdpeng/ExData_Plotting1] are below:
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 ### Plot 2
